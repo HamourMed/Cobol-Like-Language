@@ -1,0 +1,36 @@
+IDENTIFICATION DIVISION.
+    PROGRAM-ID. Prog1.
+
+DATA DIVISION.
+    WORKING-STORAGE SECTION.
+#comme 12 554 ! 78 !
+        Ab2| Tuy INTEGER.
+        Test1 CHAR.       
+        CONST Ry='c'.
+        CONST Int  INTEGER.
+        CONST Test= 0.
+        Eui LINE (-8), SIZE 78 INTEGER . 
+
+PROCEDURE DIVISION.
+
+
+    Int= 578  .
+    Test1='a'.
+    ACCEPT("&":@Test1).
+    DISPLAY("test$ test &":Test| Ry ).
+
+MOVE Int TO 85 :
+IF NOT(5 .GE. Int) :
+DISPLAY("test$ $test &":Test| Eui| Ry ).
+Test1='a'.
+ELSE :
+END.
+
+Test1='a'.
+
+END.
+    
+
+
+STOP RUN .
+
